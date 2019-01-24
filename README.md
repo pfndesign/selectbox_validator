@@ -1,5 +1,6 @@
 # selectbox_validator
-simple select box validator using select box html
+simple select box validator using select box html.
+
 This class can validate an option of a select input with its HTML.
 It can take the HTML used to display a form select input and parses it to check if a given option makes part of the defined options.
 The class can also extract the list of all available options and return an array with all the option values.
