@@ -1,5 +1,8 @@
 # selectbox_validator
 simple select box validator using select box html
+This class can validate an option of a select input with its HTML.
+It can take the HTML used to display a form select input and parses it to check if a given option makes part of the defined options.
+The class can also extract the list of all available options and return an array with all the option values.
 
 # what is this ?
 
@@ -8,6 +11,7 @@ to fix this problem you need to check if user sended the value from the selectbo
 if you are creating the selectbox from database then you can check the values there 
 but if you are not, you need to convert all of the values from selectbox to array and then check them with user input
 this class does this both for you , you just need to simply copy the selectbox html
+
 # how to use?
 
 ## setup :
